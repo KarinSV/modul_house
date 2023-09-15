@@ -14,7 +14,7 @@ const Hero = () => {
               perfect home
             </h1>
           </div>
-          <div className="flexColStart secondaryText flexhero-des">
+          <div className="flexColStart secondaryText">
             <span>Every dream starts with a passion and every living start</span>
             <span>with a dream of perfect life. Here we are helping you to</span>
             <span>get your perfect house</span>
@@ -60,7 +60,7 @@ const Hero = () => {
             }}
             className="image-container"
           >
-            <img src="../src/assets/1.jpeg" alt="houses" />
+            <img src="/src/assets/1.jpeg" alt="houses" />
           </motion.div>
         </div>
       </div>
