@@ -51,17 +51,20 @@ const Hero = () => {
 
         {/* right side */}
         <div className="flexCenter hero-right">
-          <motion.div
-            initial={{ x: "7rem", opacity: 0 }}
-            animate={{ x: 0, opacity: 1 }}
-            transition={{
-              duration: 2,
-              type: "ease-in",
-            }}
-            className="image-container"
-          >
+          <div className="image-container">
             <img src="../../../public/hero-image.png" alt="houses" />
-          </motion.div>
+          </div>
+          {/*<motion.div*/}
+          {/*  initial={{ x: "7rem", opacity: 0 }}*/}
+          {/*  animate={{ x: 0, opacity: 1 }}*/}
+          {/*  transition={{*/}
+          {/*    duration: 2,*/}
+          {/*    type: "ease-in",*/}
+          {/*  }}*/}
+          {/*  className="image-container"*/}
+          {/*>*/}
+          {/*  <img src="../../../public/hero-image.png" alt="houses" />*/}
+          {/*</motion.div>*/}
         </div>
       </div>
     </section>

@@ -60,12 +60,6 @@ a {
   justify-content: center;
   align-items: flex-start;
 }
-.flexColEnd {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-end;
-}
 
 .primaryText {
   color: #1f3e72;
