@@ -60,7 +60,7 @@ const Hero = () => {
             }}
             className="image-container"
           >
-            <img src="/src/assets/1.png" alt="houses" />
+            <img src="../../../public/hero-image.png" alt="houses" />
           </motion.div>
         </div>
       </div>

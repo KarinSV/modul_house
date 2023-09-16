@@ -5,6 +5,7 @@ import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
 import "swiper/css";
 import "./Residencies.css";
 import { sliderSettings } from "../../utils/common";
+
 const Residencies = () => {
   return (
     <div id="residencies" className="r-wrapper">

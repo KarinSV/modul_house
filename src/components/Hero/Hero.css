@@ -88,7 +88,7 @@
   .stats{
     justify-content: center;
     gap: 1.5rem;
-    font-weight: wrap;
+    /*font-weight: wrap;*/
   }
   .stat>:nth-child(1){
     font-size: 1.5rem;
