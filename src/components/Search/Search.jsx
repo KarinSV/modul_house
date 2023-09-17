@@ -1,7 +1,7 @@
-import "./Hero.css";
+import "./Search.css";
 import CountUp from "react-countup";
-import { motion } from "framer-motion";
-const Hero = () => {
+// import { motion } from "framer-motion";
+const Search = () => {
   return (
     <section className="hero-wrapper">
       <div className="paddings innerWidth flexCenter hero-container">
@@ -71,4 +71,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Search;

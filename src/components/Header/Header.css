@@ -6,7 +6,6 @@
 .h-container {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  /*color: var(--secondary);*/
   color: #C36835;
   justify-content: space-between;
 }
@@ -26,7 +25,6 @@
     display: block;
   }
   .h-menu {
-    /*color: var(--black);*/
     position: absolute;
     gap: 2rem;
     font-weight: 500;
@@ -39,11 +37,9 @@
     transition: all 200ms ease;
     align-items: flex-start;
     padding: 3rem;
-    /*box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);*/
   }
 }
 .h-menu:hover {
   cursor: pointer;
-  /*transform: scale(1.1);*/
   color: #ED5805;
 }

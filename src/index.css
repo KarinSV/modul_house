@@ -1,8 +1,4 @@
 :root {
-  --primary: #1f3e72;
-  --secondary: rgba(255, 255, 255, 0.78);
-  /*--black: #131110;*/
-  --blue-gradient: linear-gradient(97.05deg, #4066ff 3.76%, #2949c6 100%);
   --orange-gradient: linear-gradient(270deg, #ffb978 0%, #ff922d 100%);
   --blue: #4066ff;
   --lightBlue: #eeeeff;
@@ -62,7 +58,7 @@ a {
 }
 
 .primaryText {
-  color: #1f3e72;
+  color: #C36835;
   font-weight: bold;
   font-size: 2rem;
 }
@@ -78,6 +74,7 @@ a {
 }
 
 /* media queries */
+
 @media (min-width: 1536px) {
   .innerWidth {
     max-width: 1280px;
@@ -112,12 +109,13 @@ a {
   color: white;
   background: #C36835;
   border: none;
-  border-radius: 4px;
+  border-radius: 25px;
   transition: all 300ms ease-in;
 }
 .button:hover {
   cursor: pointer;
   background: #ED5805;
+  transform: scale(1.1);
 }
 
 h1{

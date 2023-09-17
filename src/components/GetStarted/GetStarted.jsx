@@ -9,8 +9,8 @@ const GetStarted = () => {
           <span className="secondaryText">
             Subscribe and find your residence
           </span>
-          <button className="button" href>
-            <a href="#">Get Started</a>
+          <button className="button">
+            <a href="#">Get started</a>
           </button>
         </div>
       </div>

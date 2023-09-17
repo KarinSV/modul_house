@@ -10,19 +10,21 @@ const Header = () => {
   const headerColor = useHeaderColor();
 
   return (
-    <section className="h-wrapper" style={{ background: headerColor }}>
+    <section className="h-wrapper" style={{ background: "white" }}>
       <div className="flexCenter innerWidth paddings h-container">
+
         {/* logo */}
 
         <h1> <img src="./logo.png" alt="logo" width={70} /> Modul House</h1>
+
         {/* menu */}
+
         <OutsideClickHandler
           onOutsideClick={() => {
             setMenuOpened(false);
           }}
         >
           <div
-            // ref={menuRef}
             className="flexCenter h-menu"
             style={getMenuStyles(menuOpened)}
           >
@@ -38,6 +40,7 @@ const Header = () => {
         </OutsideClickHandler>
 
         {/* for medium and small screens */}
+
         <div
           className="menu-icon"
           onClick={() => setMenuOpened((prev) => !prev)}
