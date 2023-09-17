@@ -1,16 +1,14 @@
 import "./Search.css";
-import CountUp from "react-countup";
-// import { motion } from "framer-motion";
 
 const Search = () => {
   return (
-    <section className="hero-wrapper">
-      <div className="paddings innerWidth flexCenter hero-container">
+    <section className="search-wrapper">
+      <div className="paddings innerWidth flexCenter search-container">
 
         {/* left side */}
 
-        <div className="flexColStart hero-left">
-          <div className="hero-title">
+        <div className="flexColStart search-left">
+          <div className="search-title">
             <h1>
               We will help you <br />
               to find your<br />
@@ -22,54 +20,17 @@ const Search = () => {
             <span>with a dream of perfect life. Here we are helping you to</span>
             <span>get your perfect house</span>
           </div>
-
-          <div className="flexCenter search-bar">
-            <input type="text" />
+          <div className="flexCenter">
             <button className="button">Search</button>
-          </div>
-
-          <div className="flexCenter stats">
-            <div className="flexColCenter stat">
-              <span>
-                <CountUp start={8800} end={9000} duration={4} /> <span>+</span>
-              </span>
-              <span className="secondaryText">Premium Product</span>
-            </div>
-
-            <div className="flexColCenter stat">
-              <span>
-                <CountUp start={1950} end={2000} duration={4} /> <span>+</span>
-              </span>
-              <span className="secondaryText">Happy Customer</span>
-            </div>
-
-            <div className="flexColCenter stat">
-              <span>
-                <CountUp end={28} /> <span>+</span>
-              </span>
-              <span className="secondaryText">Awards Winning</span>
-            </div>
           </div>
         </div>
 
         {/* right side */}
 
-        <div className="flexCenter hero-right">
+        <div className="flexCenter">
           <div className="image-container">
-            {/*<img src="../../../public/hero-image.png" alt="houses" />*/}
-            <img src="./hero-image.png"/>
+            <img src="./search-image.png"/>
           </div>
-          {/*<motion.div*/}
-          {/*  initial={{ x: "7rem", opacity: 0 }}*/}
-          {/*  animate={{ x: 0, opacity: 1 }}*/}
-          {/*  transition={{*/}
-          {/*    duration: 2,*/}
-          {/*    type: "ease-in",*/}
-          {/*  }}*/}
-          {/*  className="image-container"*/}
-          {/*>*/}
-          {/*  <img src="../../../public/hero-image.png" alt="houses" />*/}
-          {/*</motion.div>*/}
         </div>
       </div>
     </section>
