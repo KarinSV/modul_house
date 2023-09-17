@@ -2,12 +2,10 @@ import React, { useState } from "react";
 import "./Header.css";
 import { BiMenuAltRight } from "react-icons/bi";
 import { getMenuStyles } from "../../utils/common";
-import useHeaderColor from "../../hooks/useHeaderColor";
 import OutsideClickHandler from "react-outside-click-handler";
 
 const Header = () => {
   const [menuOpened, setMenuOpened] = useState(false);
-  const headerColor = useHeaderColor();
 
   return (
     <section className="h-wrapper" style={{ background: "white" }}>
@@ -28,11 +26,22 @@ const Header = () => {
             className="flexCenter h-menu"
             style={getMenuStyles(menuOpened)}
           >
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Projects</a>
-            <a href="#">Blog</a>
-            <a href="#">Contact</a>
+            <div className="menu-hover">
+              <a href="#">Home</a>
+            </div>
+            <div className="menu-hover">
+              <a href="#">About</a>
+            </div>
+            <div className="menu-hover">
+              <a href="#">Projects</a>
+            </div>
+            <div className="menu-hover">
+              <a href="#">Blog</a>
+            </div>
+            <div className="menu-hover">
+              <a href="#">Contact</a>
+            </div>
+
             <button className="button">
               <a href="tel:+460703458799">Call us</a>
             </button>

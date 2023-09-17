@@ -13,9 +13,9 @@
 .h-menu {
   gap: 2rem;
 }
-.h-menu > *:hover {
-  cursor: pointer;
-}
+/*.h-menu > *:hover {*/
+/*  cursor: pointer;*/
+/*}*/
 .menu-icon {
   display: none;
 }
@@ -39,7 +39,7 @@
     padding: 3rem;
   }
 }
-.h-menu:hover {
+.menu-hover:hover {
   cursor: pointer;
   color: #ED5805;
 }

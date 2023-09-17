@@ -29,7 +29,7 @@ const Search = () => {
 
         <div className="flexCenter">
           <div className="image-container">
-            <img src="./search-image.png"/>
+            <img src="./search-image.png" alt="house"/>
           </div>
         </div>
       </div>
