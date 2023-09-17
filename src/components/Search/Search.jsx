@@ -1,11 +1,14 @@
 import "./Search.css";
 import CountUp from "react-countup";
 // import { motion } from "framer-motion";
+
 const Search = () => {
   return (
     <section className="hero-wrapper">
       <div className="paddings innerWidth flexCenter hero-container">
+
         {/* left side */}
+
         <div className="flexColStart hero-left">
           <div className="hero-title">
             <h1>
@@ -50,9 +53,11 @@ const Search = () => {
         </div>
 
         {/* right side */}
+
         <div className="flexCenter hero-right">
           <div className="image-container">
-            <img src="../../../public/hero-image.png" alt="houses" />
+            {/*<img src="../../../public/hero-image.png" alt="houses" />*/}
+            <img src="./hero-image.png"/>
           </div>
           {/*<motion.div*/}
           {/*  initial={{ x: "7rem", opacity: 0 }}*/}
