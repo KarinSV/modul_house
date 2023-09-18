@@ -3,6 +3,7 @@
   position: sticky;
   top: 0;
 }
+
 .h-container {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -37,6 +38,7 @@
     padding: 3rem;
   }
 }
+
 .menu-hover:hover {
   cursor: pointer;
   color: #ED5805;

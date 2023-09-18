@@ -9,16 +9,21 @@ const Footer = () => {
   return (
     <div className="f-wrapper">
       <div className="paddings innerWidth flexCenter f-container">
+
         {/* left side */}
+
         <div className="flexColStart f-left">
           <h1> <img src="./logo.png" alt="logo" width={70} /> Modul House</h1>
+
           <span className="secondaryText">
             Our vision is to make a house for<br />
             people the best place to live for them
           </span>
+
           <span className="secondaryText">
             Follow us
           </span>
+
           <div className="socialMedia">
           <FacebookIcon onClick={() => window.location.href ="https://www.facebook.com/"}/>
           <Twitter onClick={() => window.location.href ="https://twitter.com/?lang=en"}/>
@@ -27,8 +32,11 @@ const Footer = () => {
           </div>
         </div>
 
+        {/*right side*/}
+
         <div className="flexColStart f-right">
           <div className="flexCenter f-menu">
+
             <span>
               <a href="#">About Us</a><br/>
               <span className="footerMenu">
@@ -37,6 +45,7 @@ const Footer = () => {
               <a href="#">News & Blog</a>
                 </span>
             </span>
+
             <span>
               <a href="#">Company</a><br/>
               <span className="footerMenu">
@@ -45,6 +54,7 @@ const Footer = () => {
               <a href="#">Security</a>
               </span>
             </span>
+
             <span>
               <a href="#">Support</a><br/>
               <span className="footerMenu">
@@ -53,6 +63,7 @@ const Footer = () => {
               <a href="#">Contact us</a>
               </span>
               </span>
+
             <span>
               <a href="#">Legal</a><br/>
                <span className="footerMenu">
@@ -60,6 +71,7 @@ const Footer = () => {
               <a href="#">Documents</a><br/>
               <a href="#">Help</a>
               </span>
+
             </span>
           </div>
         </div>

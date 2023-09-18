@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import "./Value.css";
 
 const Value = () => {
@@ -8,13 +7,11 @@ const Value = () => {
 
         {/* left side */}
 
-        {/*<div className="v-left">*/}
           <div className="image-container">
             <img src="./value.png" alt="" />
           </div>
-        {/*</div>*/}
 
-        {/* right */}
+        {/* right side */}
 
         <div className="flexColStart v-right">
 
