@@ -7,5 +7,12 @@ This is a school project for an individual project course. In this course, I cre
 # How to run project
 
 ## Figma
-`https://www.figma.com/file/gjsMdASJUDyqYIY7KtBhAW/Modul-House?type=design&mode=design&t=O2EsoGd6qr7nk1fA-0`<br>
-`https://www.figma.com/proto/gjsMdASJUDyqYIY7KtBhAW/Modul-House?type=design&t=R757lW6cpQU6ZSuP-1&scaling=contain&page-id=1%3A2&starting-point-node-id=1%3A4&node-id=1-4&mode=design`
+Landing page in [Figma](https://www.figma.com/file/gjsMdASJUDyqYIY7KtBhAW/Modul-House?type=design&mode=design&t=O2EsoGd6qr7nk1fA-1)
+
+## Clone or download
+`$ git clone https://github.com/KarinSV/modul_house`<br>
+`$ yarn install`<br>
+`$ yarn dev`
+
+![GitHub language count](https://img.shields.io/github/languages/count/KarinSV/todo-app-data-interaction)
+![GitHub top language](https://img.shields.io/github/languages/top/KarinSV/todo-app-data-interaction?color=yellow)
