@@ -15,11 +15,11 @@ function App() {
         <Header />
         <Search />
       </div>
-      <Residencies/>
-      <Value/>
-      <Blog/>
-      <GetStarted/>
-      <Footer/>
+            <Residencies/>
+            <Value/>
+            <Blog/>
+            <GetStarted/>
+            <Footer/>
     </div>
   );
 }
