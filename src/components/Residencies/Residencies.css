@@ -57,13 +57,17 @@
   right: 0;
 }
 
+.r-buttons button:hover{
+  background-color: #ED5805;
+}
+
 .r-buttons button{
   font-size: 1.2rem;
   padding: .2rem .8rem;
-  color:  #ED5805;
+  color: white;
   border: none;
-  border-radius: 5px;
-  background-color: white;
+  border-radius: 50%;
+  background-color: #C36835;
   cursor: pointer;
 }
 
